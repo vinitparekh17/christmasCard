@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.container{
+    margin: 10% 2.5%;
+    position: relative;
+    width: 95%;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .4);
+    overflow: hidden;
+}
+
+#bgimg{
+    background: url(./assets/red-2892235.png) center / cover;
+    position: relative;
+    width: 100%;
+    height: 380px;
+    min-height: 295px;
+}
+
+#content{
+    width: 50%;
+    color: rgb(250, 242, 204);
+    position: relative;
+    padding: 5%;
+    text-align: justify;
+}
+
+p{
+    color: white;
+    opacity: 75%;
+    font-family: Lobster Two;
+}
+
+h1{
+    text-align: center;
+    font-family: Oswald;
+    text-shadow: 0 0 3px #0000;
+    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+    font-size: 50px;
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
