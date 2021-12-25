@@ -6,12 +6,15 @@ body{
 }
 
 .container{
-    margin: 35% 2.5%;
+    margin: 2.5%;
     position: relative;
     width: 95%;
     border-radius: 20px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, .4);
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #bgimg{
